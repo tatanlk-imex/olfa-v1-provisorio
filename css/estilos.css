@@ -416,3 +416,8 @@ h3{font-weight:700}
 @media print{.mensaje-prueba{display:none}}
 
 @media (min-width:1101px){.cabecera .contenedor{max-width:1360px}.nav-principal a{white-space:nowrap;padding:10px 8px;font-size:.88rem}.nav-principal .cta-lista,.nav-principal .cta-nav-sec{margin-left:4px}}
+
+/* Tarjetas de novedades: mismo alto y botones alineados abajo */
+.novedades{align-items:stretch}
+.novedad{display:flex;flex-direction:column}
+.novedad>p:last-child{margin-top:auto;padding-top:14px;margin-bottom:0}
